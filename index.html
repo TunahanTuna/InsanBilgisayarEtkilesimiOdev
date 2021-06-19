@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Şehir Bilgisi</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+
+        <!-- Navbar -->
+        <!-- Left navbar links -->
+
+
+        <!-- SEARCH FORM -->
+        <form class="form-inline ml-3">
+            <div class="input-group input-group-sm">
+                <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-navbar" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Right navbar links -->
+
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="index.html" class="brand-link">
+                <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+                    style="opacity: .8">
+                <span class="brand-text font-weight-light">Bölgeler ve Şehirler</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar user panel (optional) -->
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                    <div class="image">
+                        <img src="dist/img/profile.png" class="img-circle elevation-2" alt="User Image">
+                    </div>
+                    <div class="info">
+                        <a href="https://github.com/TunahanTuna" target="_blank" class="d-block">Mustafa Tunahan Tuna</a>
+                    </div>
+                </div>
+
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                <i class="nav-icon fas fa-th"></i>
+                                <p>
+                                    Şehirler
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="bolgeler.html" class="nav-link">
+                                <i class="nav-icon fas fa-bars"></i>
+                                <p>
+                                    Bölgeler
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+        
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+
+            <!-- /.content-header -->
+            
+            <!-- Main content -->
+            <div>
+                <h2>Şehirler Listesi</h2>                
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Plaka Kodu</th>
+                        <th>Sehir Adı</th>
+                        <th>Harita Konumu</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Adana" target="_blank">Adana</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/TeXCdWyGMM9BtCem7" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Adıyaman_(il)" target="_blank">Adıyaman</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/hgP6V1uYvpC1SiFu9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Afyonkarahisar" target="_blank">Afyonkarahisar</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/UekS7Wki8TAcUUMX6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Ağrı" target="_blank">Ağrı</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/EQj6Jzm7DFfL5e52A" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Amasya" target="_blank">Amasya</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/hLjbhpdosNVAYtAJA" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Ankara" target="_blank">Ankara</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/1JoHhuahmMizpGJu8" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>07</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Antalya" target="_blank">Antalya</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/3nhiHDYpPb8GXXy77" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>08</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Artvin" target="_blank">Artvin</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/K9xf6Z1N5iAiKtu8A" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>09</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Aydın" target="_blank">Aydın</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/peiyZzWMEjcPpLTu6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Balıkesir" target="_blank">Balıkesir</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/qSKcPXM9pyFdkM5YA" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Bilecik" target="_blank">Bilecik</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/Qftny3RbzsVpHF678" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Bingöl" target="_blank">Bingöl</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/Y2t44E1ynLdMSXv4A" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Bitlis" target="_blank">Bitlis</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/hh5epuNKS7ykioWT9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Bolu" target="_blank">Bolu</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/fLuUeTjVEb4NVqzq9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Burdur" target="_blank">Burdur</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/MHtWCMYeTGdodvU56" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Bursa" target="_blank">Bursa</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/97zmkD97czq8kiHq8" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Çanakkale" target="_blank">Çanakkale</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/y8Fxh1HMQBkSZxik6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Çankırı" target="_blank">Çankırı</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/hAmAbvvM5HG6vJwo9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Çorum" target="_blank">Çorum</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/yq32gPfW36FRCNXK9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Denizli" target="_blank">Denizli</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/W7LNU4xQJQ5x46Ys9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Diyarbakır" target="_blank">Diyarbakır</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/jJV4Vk9B35Gxdokb6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Edirne" target="_blank">Edirne</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/RRhCeF42wRbM2mkWA" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Elazığ" target="_blank">Elazığ</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/M5pkPmGKiGma4LfAA" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Erzincan" target="_blank">Erzincan</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/HD6p9eRYcsbWpH5N9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Erzurum" target="_blank">Erzurum</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/hqxAhxMknaTJPsYH6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Eskişehir" target="_blank">Eskişehir</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/37qxjNp49GRzKLxEA" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Gaziantep" target="_blank">Gaziantep</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/R1D7hFMDU79sNaiS9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Giresun" target="_blank">Giresun</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/Apnxd9vWv3VWxuVS6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>29</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Gümüşhane" target="_blank">Gümüşhane</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/EfR6zUrWHD6R9wVJ9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>30</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Hakkari" target="_blank">Hakkari</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/xa9UxmJvjadfAaqt5" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>31</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Hatay" target="_blank">Hatay</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/n8Ux5JjV4ttw7fgC7" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>32</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Isparta" target="_blank">Isparta</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/6cPrecNQuBqmqBJs9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>33</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Mersin" target="_blank">Mersin</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/yQFjb3B3HvLMuPQh6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>34</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/İstanbul" target="_blank">İstanbul</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/yxcs1dGnwhZS78q67" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>35</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/İzmir" target="_blank">İzmir</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/NF7WY3XxPeTd36HU8" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>36</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Kars" target="_blank">Kars</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/8MphgFPKaNVmqEtd8" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>37</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Kastamonu" target="_blank">Kastamonu</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/1aPzKBt4gfAVZ2j87" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>38</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Kayseri" target="_blank">Kayseri</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/yuoLQ52tJJ3J2VgF9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>39</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Kırklareli" target="_blank">Kırklareli</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/dAKbFWY12X3NidbF7" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>40</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Kırşehir" target="_blank">Kırşehir</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/FwDdDxRKcJKFhCG3A" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>41</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Kocaeli" target="_blank">Kocaeli</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/wxtUYZLNrCFuDGFW8" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>42</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Konya" target="_blank">Konya</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/jUyukdP6BQedCbVm7" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>43</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Kütahya" target="_blank">Kütahya</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/kSYsuLKqBQruFzKk9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>44</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Malatya" target="_blank">Malatya</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/JvFR7FSwupDDsVnA9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>45</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Manisa" target="_blank">Manisa</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/PMAR4AwGEf5W5UcK9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>46</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Kahramanmaraş" target="_blank">Kahramanmaraş</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/QKAYfKrYNTkreB9f6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>47</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Mardin" target="_blank">Mardin</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/uWacJHbeNXL5Qvdw6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>48</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Muğla" target="_blank">Muğla</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/qX9SeMytTbDTRjF3A" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>49</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Muş" target="_blank">Muş</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/AYGFA6qeWB1WRkiy8" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>50</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Nevşehir" target="_blank">Nevşehir</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/w64pTJNCuohYF2r3A" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>51</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Niğde" target="_blank">Niğde</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/H9uD5W1EuP5iBDyA8" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>52</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Ordu" target="_blank">Ordu</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/kPvb2gvUV4LaqdBN6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>53</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Rize" target="_blank">Rize</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/DFSCaBZgCpxPFkoq9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>54</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Sakarya" target="_blank">Sakarya</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/mLyMERPoHvJDuSk39" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>55</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Samsun" target="_blank">Samsun</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/1b4vLnKYWx8EjcYD9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>56</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Siirt" target="_blank">Siirt</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/QovsouGAbr7LP9RH9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>57</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Sinop" target="_blank">Sinop</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/4d4fyhnvghR3eBhd8" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>58</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Sivas" target="_blank">Sivas</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/FRPCVmud4HP28dku7" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>59</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Tekirdağ" target="_blank">Tekirdağ</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/me6R2b6Vc1xZFcGx5" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>60</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Tokat" target="_blank">Tokat</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/2WimhdbTsNtb6rSP6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>61</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Trabzon" target="_blank">Trabzon</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/YFfsBUJGjVpX2C2Z7" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>62</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Tunceli" target="_blank">Tunceli</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/SCD5vHgb9ht6dGLE9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>63</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Şanlıurfa" target="_blank">Şanlıurfa</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/5T7SNpjLktQGpbJa6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>64</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Uşak" target="_blank">Uşak</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/kUQ578QYNxetFWEG6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>65</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Van" target="_blank">Van</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/qT1jCXQusyDxyba19" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>66</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Yozgat" target="_blank">Yozgat</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/LG6RSsKaWVMfVNBn9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>67</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Zonguldak" target="_blank">Zonguldak</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/En22nBPuX1Y2Tp5q6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>68</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Aksaray" target="_blank">Aksaray</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/7p3LqStQq9qQx9Rx6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>69</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Bayburt" target="_blank">Bayburt</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/VSh3HQWK89meMzE57" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>70</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Karaman" target="_blank">Karaman</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/FAf46kN69cujQztD9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>71</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Kırıkkale" target="_blank">Kırıkkale</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/8duVitSAsYQyiuke7" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>72</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Batman" target="_blank">Batman</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/TfcYwFh85XHsSsXE7" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>73</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Şırnak" target="_blank">Şırnak</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/geGRsbPXCqnsuuAy5" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>74</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Bartın" target="_blank">Bartın</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/4Mmu4cdAFWrQGi6e6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>75</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Ardahan" target="_blank">Ardahan</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/MRzCE7CzQ9iCTMnE9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>76</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Iğdır" target="_blank">Iğdır</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/Muz3XDgjUaYHyDvb8" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>77</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Yalova" target="_blank">Yalova</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/jxMVNYNYjPyiBymd6" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>78</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Karabük" target="_blank">Karabük</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/rAt2e8FY7wLREKoH9" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>79</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Kilis" target="_blank">Kilis</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/DjZrUqzhogChKwmx7" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>80</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Osmaniye" target="_blank">Osmaniye</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/f1MX4L38Cgm1mw4W7" target="_blank">Konuma Git</a></td>
+                    </tr>
+                    <tr>
+                        <td>81</td>
+                        <td><a href="https://tr.wikipedia.org/wiki/Düzce" target="_blank">Düzce</a></td>
+                        <td><a class="btn btn-outline-info" href="https://goo.gl/maps/kJksRtpDTNGS3bLN8" target="_blank">Konuma Git</a></td>
+                    </tr>
+                </table>
+            </div>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+            <div class="p-3">
+                <h5>Title</h5>
+                <p>Sidebar content</p>
+            </div>
+        </aside>
+        <!-- /.control-sidebar -->
+
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            <!-- Default to the left -->
+            <strong>Copyright &copy; 2021 <a href="https://github.com/TunahanTuna">||181213063 || Mustafa Tunahan TUNA||</a></strong> Tüm hakları saklıdır.
+        </footer>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- REQUIRED SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.min.js"></script>
+</body>
+
+</html>
